@@ -1,0 +1,47 @@
+:root {
+    --page-background-color: #e9ede9;
+    --margin-left-small: 0.4rem;
+    --margin-left-medium: 0.5rem;
+    --margin-left-large: 1rem;
+    --margin-left-extraLarge: 1.5rem;
+    --margin-right-small: 0.4rem;
+    --margin-right-medium: 0.5rem;
+    --margin-right-large: 1rem;
+    --margin-right-extraLarge: 1.5rem;
+    --margin-top-small: 0.4rem;
+    --margin-top-medium: 0.5rem;
+    --margin-top-large: 1rem;
+    --margin-top-extraLarge: 1.5rem;
+    --margin-bottom-small: 0.4rem;
+    --margin-bottom-medium: 0.5rem;
+    --margin-bottom-large: 1rem;
+    --margin-bottom-extraLarge: 1.5rem;
+    /* padding util */
+    --padding-left-small: 0.4rem;
+    --padding-left-medium: 0.5rem;
+    --padding-left-large: 1rem;
+    --padding-left-extraLarge: 1.5rem;
+    --padding-right-small: 0.4rem;
+    --padding-right-medium: 0.5rem;
+    --padding-right-large: 1rem;
+    --padding-right-extraLarge: 1.5rem;
+    --padding-top-small: 0.4rem;
+    --padding-top-medium: 0.5rem;
+    --padding-top-large: 1rem;
+    --padding-top-extraLarge: 1.5rem;
+    --padding-small: 0.4rem;
+    --padding-medium: 0.5rem;
+    --padding-large: 1rem;
+    --padding-extraLarge: 1.5rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,300;1,900&family=Yanone+Kaffeesatz:wght@400;500&display=swap");
+html {
+    font-family: "Oswald", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+:root {
+    --Drinks-Break-primary-color: #22968c;
+}

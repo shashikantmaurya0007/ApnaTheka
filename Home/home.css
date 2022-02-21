@@ -1,0 +1,238 @@
+@import url(https://vodka-ui-componentlib.netlify.app/Component/component.css);
+@import url(../reset.css);
+@import url(../util.css);
+html {
+    background-color: var(--page-background-color);
+    font-size: 75%;
+}
+
+.apnatheka_navbar {
+    min-height: 8rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.apnatheka_navbar_logo span {
+    font-size: 4rem;
+}
+
+.apnatheka_navbar_logo span+span {
+    color: var(--Drinks-Break-primary-color);
+    font-size: 3rem;
+    font-weight: 900;
+    opacity: 0.7;
+}
+
+.apnatheka_navbar_logo {
+    width: max-content;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_btn_container a.btn.btn-primary.btn-icon {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.navbar_btn_container {
+    display: flex;
+    width: 13rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_img_container {
+    background: url(../IMAGES/apnatheka_banner_image2.jpg) center center / 100% 100% no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+
+/* styling for main container which contains all the component */
+
+.drinksbreak-main-container {
+    min-height: 90vh;
+}
+
+
+/* style for content inside banner */
+
+.inside-banner {
+    height: 80vh;
+    width: 81vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.inside-banner h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    /* opacity: 0.7; */
+}
+
+.inside-banner h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    /* opacity: 0.6; */
+}
+
+.inside-banner a {
+    padding: var(--padding-large);
+}
+
+.inside-banner a:hover {
+    transform: translateY(0.5rem);
+    transition: all 2s ease-in-out;
+}
+
+
+/* categories title starts here */
+
+.categories_title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    opacity: 0.7;
+    margin: 4rem 0rem;
+}
+
+.categories_title span {
+    font-size: 7rem;
+    color: var(--Drinks-Break-primary-color);
+}
+
+
+/* categories elements starts here */
+
+.categories-Container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.categories {
+    width: 13rem;
+    position: relative;
+    height: 20rem;
+    padding: var(--padding-large);
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.categories img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+/* categories overlay style */
+
+.categories-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+.categories-overlay h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.categories:hover {
+    transform: scale(1.07, 1.07);
+    transition: all 0.8s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    .inside-banner {
+        height: 38vh;
+    }
+    .banner_img_container {
+        background-size: contain;
+    }
+    .apnatheka_navbar_logo span+span {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .inside-banner h1 {
+        font-size: 8rem;
+        font-weight: 900;
+        /* opacity: 0.7; */
+    }
+    .inside-banner h2 {
+        font-size: 4rem;
+        font-weight: 800;
+        /* opacity: 0.6; */
+    }
+    .inside-banner a {
+        padding: var(--padding-large);
+    }
+    .categories {
+        width: 24rem;
+    }
+}
+
+
+/* footer styling starts here */
+
+footer {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Drinks-Break-primary-color);
+    margin-top: 10rem;
+}
+
+.footer-drinks-break-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.footer-drinksbreak-link-container {
+    width: 60%;
+    height: 2rem;
+    font-size: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
