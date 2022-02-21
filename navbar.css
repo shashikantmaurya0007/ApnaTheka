@@ -1,0 +1,50 @@
+.apnatheka_navbar {
+    min-height: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.apnatheka_navbar_logo span {
+    font-size: 4rem;
+}
+
+.apnatheka_navbar_logo span+span {
+    color: var(--Drinks-Break-primary-color);
+    font-size: 3rem;
+    font-weight: 900;
+    opacity: 0.7;
+}
+
+.apnatheka_navbar_logo {
+    width: max-content;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_btn_container a.btn.btn-primary.btn-icon {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.navbar_btn_container {
+    display: flex;
+    width: 13rem;
+    align-items: center;
+    justify-content: space-between;
+}

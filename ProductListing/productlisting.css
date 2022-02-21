@@ -1,0 +1,67 @@
+@import url(../navbar.css);
+@import url(https://vodka-ui-componentlib.netlify.app/Component/component.css);
+@import url(../reset.css);
+@import url(../util.css);
+@import url(../footer.css);
+
+/* styling for main container starts here */
+
+.productlisting_main_container {
+    display: flex;
+    /* delete this later */
+    min-height: 90vh;
+    margin: var(--margin-top-large);
+}
+
+
+/* styling for filter Container */
+
+.heading_clearall_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+/* style for slider */
+
+.price-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price_range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter_container {
+    flex-basis: 35%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: var(--padding-large);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: max-content;
+    /* delete this later */
+}
+
+.filter_container ul {
+    width: 100%;
+}
+
+
+/* productlist styling starts here */
+
+.productslist_container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: var(--padding-large);
+}
+
+@media screen {}
