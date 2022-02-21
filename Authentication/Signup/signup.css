@@ -31,10 +31,6 @@
     opacity: 0.7;
 }
 
-.checkbox {
-    margin-left: -9 rem;
-}
-
 .signup-box .signup-header::first-letter {
     color: var(--Drinks-Break-primary-color);
 }
@@ -43,4 +39,10 @@
     width: 80%;
     text-align: center;
     padding: var(--padding-large) 0;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
