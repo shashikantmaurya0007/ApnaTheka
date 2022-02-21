@@ -1,0 +1,123 @@
+@import url(https://vodka-ui-componentlib.netlify.app/Component/component.css);
+@import url(../reset.css);
+@import url(../util.css);
+@import url(../navbar.css);
+@import url(../footer.css);
+
+/* cart management main styles */
+
+:root {
+    --success-color: #9eba3b;
+}
+
+.cart_management_container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    min-height: 80vh;
+    border: 2px solid black;
+}
+
+.cart_products {
+    min-width: 70%;
+    min-height: 30vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: var(--padding-extraLarge) 0;
+    flex-wrap: wrap;
+}
+
+.cart_products_sum {
+    min-height: 20vh;
+    border: 2px solid black;
+    flex-grow: 1;
+}
+
+
+/* card container increase and decrease button */
+
+.cart_product_quantity {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart_product_quantity h1 {
+    font-weight: 800;
+}
+
+.cart_product_quantity .btn-container a {
+    padding: var(--padding-small) 0;
+}
+
+
+/* cart product sum styles */
+
+.cart_price_details {
+    width: 90%;
+    border: 1px solid black;
+    padding: var(--padding-large);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    position: sticky;
+    top: 12rem;
+}
+
+.cart_price_details>h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.seperate_sections {
+    height: 2px;
+    width: 100%;
+    background-color: var(--Drinks-Break-primary-color);
+    opacity: 0.7;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-medium);
+}
+
+.details h2 {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+.details h3 {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+.discount_items h3,
+.delivery_charges h3 {
+    color: var(--success-color);
+}
+
+.seperate_sections+.btn.btn-primary {
+    width: 100%;
+    padding: var(--padding-large) 0;
+    text-align: center;
+}
+
+
+/* <a href="#" class="btn btn-float">
+     <span><i class="bi bi-plus"></i></span>
+</a>
+<h1>1</h1>
+<a href="#" class="btn btn-float">
+<span><i class="bi bi-dash"></i></span>
+</a> */
