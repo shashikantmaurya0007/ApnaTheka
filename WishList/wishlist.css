@@ -1,0 +1,13 @@
+@import url(https://vodka-ui-componentlib.netlify.app/Component/component.css);
+@import url(../reset.css);
+@import url(../util.css);
+@import url(../navbar.css);
+@import url(../footer.css);
+.wishList_container {
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: var(--padding-extraLarge);
+}
