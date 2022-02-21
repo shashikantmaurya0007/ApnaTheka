@@ -1,11 +1,6 @@
 @import url(https://vodka-ui-componentlib.netlify.app/Component/component.css);
 @import url(../reset.css);
 @import url(../util.css);
-html {
-    background-color: var(--page-background-color);
-    font-size: 75%;
-}
-
 .apnatheka_navbar {
     min-height: 8rem;
     border: 2px solid black;
@@ -199,7 +194,7 @@ html {
         padding: var(--padding-large);
     }
     .categories {
-        width: 24rem;
+        width: 18rem;
     }
 }
 

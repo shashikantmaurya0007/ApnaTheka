@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./productlisting.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="apnatheka_navbar">
+        <section class="apnatheka_navbar_logo">
+            <span><i class="bi bi-cup-straw"></i></span><span>Break</span>
+        </section>
+        <section class="navbar_search">
+            <div class="lab-input">
+                <input type="text" placeholder="search your drink" />
+            </div>
+            <a class="btn btn-primary btn-icon">
+                <i class="bi bi-search"></i>
+            </a>
+        </section>
+        <section class="navbar_btn_container">
+            <a class="btn btn-primary btn-icon">
+                <i class="bi bi-shop"></i>
+            </a>
+            <div class="badge">
+                <span class="icon-badge"><i class="bi bi-cart-fill"></i></span>
+                <span class="badge-up">15</span>
+            </div>
+            <div class="badge">
+                <span class="icon-badge"><i class="bi bi-heart-fill"></i></span>
+                <span class="badge-up">15</span>
+            </div>
+            <a href="#" class="btn btn-primary btn-solid">Login</a>
+        </section>
+    </nav>
+    <main class="productlisting_main_container">
+        <section class="filter_container">
+            <div class="heading_clearall_btn">
+                <h1>Filters</h1>
+
+                <a href="#" class="btn btn-primary btn-link">Clear All</a>
+            </div>
+            <div class="price-slider">
+
+                <h1>Price</h1>
+                <div class="slider-container">
+                    <input type="range" name="" id="" min="1" max="100" class="slider" />
+                </div>
+                <div class="price_range">
+                    <h1>From:200</h1>
+                    <h1>From:5000</h1>
+                    </h1>
+                </div>
+
+            </div>
+            <!-- rating filter -->
+            <ul class="sim-unList">
+                <div class="list-heading">Filter on the basis of Rating</div>
+
+                <li>
+                    <div class="radio">
+                        <label for="radio-1">
+                <input id="radio-1" name="radio" type="radio" checked />
+                4 Star and above
+              </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="radio">
+                        <label for="radio-2">
+                <input id="radio-2" name="radio" type="radio" />
+                3 stars and above
+              </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="radio">
+                        <label for="radio-2">
+                <input id="radio-2" name="radio" type="radio" />
+                2 stars and above
+              </label>
+                    </div>
+                </li>
+            </ul>
+
+
+            <!-- rating filter ends here -->
+            <!-- category filter starts here -->
+            <ul class="sim-unList">
+                <div class="list-heading">Filter on Basis of Category</div>
+
+                <li>
+                    <div class="checkbox">
+                        <label for="checkbox-1">
+            <input
+              id="checkbox-1"
+              name="checkbox"
+              type="checkbox"
+              checked
+            />
+
+            Beer
+          </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <label for="checkbox-2">
+            <input id="checkbox-2" name="checkbox" type="checkbox" />
+            Whisky
+          </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <label for="checkbox-2">
+            <input id="checkbox-2" name="checkbox" type="checkbox" />
+            Vodka
+          </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <label for="checkbox-2">
+            <input id="checkbox-2" name="checkbox" type="checkbox" />
+            Wine
+          </label>
+                    </div>
+                </li>
+            </ul>
+            <!-- category filter end here -->
+            <!-- filter on basis of price  -->
+            <ul class="sim-unList">
+                <div class="list-heading">Filter on the basis of price order</div>
+
+                <li>
+                    <div class="radio">
+                        <label for="radio-1">
+                <input id="radio-1" name="radio" type="radio" checked />
+                 High to Low
+              </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="radio">
+                        <label for="radio-2">
+                <input id="radio-2" name="radio" type="radio" />
+               Low to High
+              </label>
+                    </div>
+                </li>
+
+            </ul>
+
+
+        </section>
+        <section class="productslist_container">
+            <div class="card shopping_card card_shadow vertical">
+                <div class="img-container">
+                    <img src="../IMAGES/categories_beer.jpg" alt="" />
+                </div>
+                <div class="lower-card">
+                    <header>
+                        <h3>Crafterd beer</h3>
+                        <p class="header-description">KingFisher</p>
+                    </header>
+                    <p class="card-description">
+                        <span class="product_price">₹600 </span><strike>₹1000</strike
+              ><span class="card_discount">40% off</span
+              ><span class="product_rating">4⭐</span>
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn btn-primary btn-solid">Add To Cart</a>
+              <a href="#" class="btn btn-primary btn-outline"
+                >Add to WishList</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 2nd card -->
+        <div class="card shopping_card card_shadow vertical">
+          <div class="img-container">
+            <img src="../IMAGES/categories_beer.jpg" alt="" />
+          </div>
+          <div class="lower-card">
+            <header>
+              <h3>Crafterd beer</h3>
+              <p class="header-description">KingFisher</p>
+            </header>
+            <p class="card-description">
+              <span class="product_price">₹600 </span><strike>₹1000</strike
+              ><span class="card_discount">40% off</span
+              ><span class="product_rating">4⭐</span>
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn btn-primary btn-solid">Add To Cart</a>
+              <a href="#" class="btn btn-primary btn-outline"
+                >Add to WishList</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 3rd Card -->
+        <div class="card shopping_card card_shadow vertical">
+          <div class="img-container">
+            <img src="../IMAGES/categories_beer.jpg" alt="" />
+          </div>
+          <div class="lower-card">
+            <header>
+              <h3>Crafterd beer</h3>
+              <p class="header-description">KingFisher</p>
+            </header>
+            <p class="card-description">
+              <span class="product_price">₹600 </span><strike>₹1000</strike
+              ><span class="card_discount">40% off</span
+              ><span class="product_rating">4⭐</span>
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn btn-primary btn-solid">Add To Cart</a>
+              <a href="#" class="btn btn-primary btn-outline"
+                >Add to WishList</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 4th Card -->
+        <div class="card shopping_card card_shadow vertical">
+          <div class="img-container">
+            <img src="../IMAGES/categories_beer.jpg" alt="" />
+          </div>
+          <div class="lower-card">
+            <header>
+              <h3>Crafterd beer</h3>
+              <p class="header-description">KingFisher</p>
+            </header>
+            <p class="card-description">
+              <span class="product_price">₹600 </span><strike>₹1000</strike
+              ><span class="card_discount">40% off</span
+              ><span class="product_rating">4⭐</span>
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn btn-primary btn-solid">Add To Cart</a>
+              <a href="#" class="btn btn-primary btn-outline"
+                >Add to WishList</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 5th card -->
+        <div class="card shopping_card card_shadow vertical">
+          <div class="img-container">
+            <img src="../IMAGES/categories_beer.jpg" alt="" />
+          </div>
+          <div class="lower-card">
+            <header>
+              <h3>Crafterd beer</h3>
+              <p class="header-description">KingFisher</p>
+            </header>
+            <p class="card-description">
+              <span class="product_price">₹600 </span><strike>₹1000</strike
+              ><span class="card_discount">40% off</span
+              ><span class="product_rating">4⭐</span>
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn btn-primary btn-solid">Add To Cart</a>
+              <a href="#" class="btn btn-primary btn-outline"
+                >Add to WishList</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 6th card -->
+        <div class="card shopping_card card_shadow vertical">
+          <div class="img-container">
+            <img src="../IMAGES/categories_beer.jpg" alt="" />
+          </div>
+          <div class="lower-card">
+            <header>
+              <h3>Crafterd beer</h3>
+              <p class="header-description">KingFisher</p>
+            </header>
+            <p class="card-description">
+              <span class="product_price">₹600 </span><strike>₹1000</strike
+              ><span class="card_discount">40% off</span
+              ><span class="product_rating">4⭐</span>
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn btn-primary btn-solid">Add To Cart</a>
+              <a href="#" class="btn btn-primary btn-outline"
+                >Add to WishList</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 7th Card -->
+        <div class="card card_overlay shopping_card card_shadow vertical">
+          <div class="card-overlay-text">
+            <span>Out of Stock</span>
+          </div>
+          <div class="img-container">
+            <img src="../IMAGES/categories_wine.jpg" alt="" />
+          </div>
+          <div class="lower-card">
+            <header>
+              <h3>Loco wine</h3>
+              <p class="header-description">sula wines</p>
+            </header>
+            <p class="card-description">
+              <span class="product_price">₹600 </span><strike>₹1000</strike
+              ><span class="card_discount">40% off</span
+              ><span class="product_rating">4⭐</span>
+            </p>
+            <div class="btn-container">
+              <a href="#" class="btn btn-primary btn-solid">Add To Cart</a>
+              <a href="#" class="btn btn-primary btn-outline"
+                >Add to WishList</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-drinks-break-main">
+        <h2>&copy shashi Made with Love ❤️</h2>
+        <div class="footer-drinksbreak-link-container">
+          <a
+            class="link"
+            target="_blank "
+            href="https://github.com/shashikantmaurya0007 "
+            ><i class="bi bi-github"></i></a
+          ><a
+            class="link"
+            target="_blank "
+            href="https://www.linkedin.com/in/shashikant-maurya-2aa39668/ "
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a
+            class="link"
+            target="_blank "
+            href="https://instagram.com/shashimourya1?utm_medium=copy_link "
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
