@@ -1,3 +1,4 @@
+@import url(./util.css);
 .apnatheka_navbar {
     min-height: 8rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -44,7 +45,11 @@
 
 .navbar_btn_container {
     display: flex;
-    width: 13rem;
+    width: 18rem;
     align-items: center;
     justify-content: space-between;
+}
+
+.navbar_btn_container a.btn.btn-primary.btn-solid {
+    padding: 0.5rem 0.5rem;
 }
