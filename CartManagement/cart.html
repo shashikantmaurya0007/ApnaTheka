@@ -11,9 +11,11 @@
 
 <body>
     <nav class="apnatheka_navbar">
-        <section class="apnatheka_navbar_logo">
-            <span><i class="bi bi-cup-straw"></i></span><span>Break</span>
-        </section>
+        <a class="redirection" href="../index.html">
+            <section class="apnatheka_navbar_logo">
+                <span><i class="bi bi-cup-straw"></i></span><span>Break</span>
+            </section>
+        </a>
         <section class="navbar_search">
             <div class="lab-input">
                 <input type="text" placeholder="search your drink" />
@@ -23,35 +25,49 @@
             </a>
         </section>
         <section class="navbar_btn_container">
-            <a class="btn btn-primary btn-icon">
+            <a title="All Products" href="../ProductListing/productlisting.html" class="btn btn-primary btn-icon">
                 <i class="bi bi-shop"></i>
             </a>
-            <div class="badge">
-                <span class="icon-badge"><i class="bi bi-cart-fill"></i></span>
-                <span class="badge-up">15</span>
-            </div>
-            <div class="badge">
-                <span class="icon-badge"><i class="bi bi-heart-fill"></i></span>
-                <span class="badge-up">15</span>
-            </div>
-            <a href="#" class="btn btn-primary btn-solid">Login</a>
-        </section>
+
+            <a title="cart" class="redirection" href="../CartManagement/cart.html">
+                <div class="badge">
+                    <span class="icon-badge"><i class="bi bi-cart-fill"></i></span>
+                    <span class="badge-up">4</span>
+                </div>
+            </a>
+            <a title="wishlist" class="redirection" href="../WishList/wishlist.html">
+                <div class="badge">
+                    <span class="icon-badge"><i class="bi bi-heart-fill"></i></span>
+                    <span class="badge-up">5</span>
+                </div>
+            </a>
+            <a href="../Authentication/Signin/" class="btn btn-primary btn-solid">Login</a
+        >
+        <a
+          href="../Authentication/Logout/logout.html"
+          class="btn btn-primary btn-solid"
+          >Logout</a
+        >
+      </section>
     </nav>
     <!-- cart management main container starts here -->
     <main class="cart_management_container">
-        <section class="cart_products">
-            <!-- first cart Product added -->
-            <div class="card shopping_card card_shadow horizontal">
-                <div class="img-container">
-                    <img src="https://stayglam.com/wp-content/uploads/2014/07/Top-14-Girly-Alcoholic-Drinks-2.jpg" alt="" />
-                </div>
-                <div class="lower-card">
-                    <header>
-                        <h3>Sahi Vodka</h3>
-                        <p class="header-description">By Bartendar Shashi</p>
-                    </header>
-                    <p class="card-description">
-                        <span class="product_price">₹600 </span><strike>₹1000</strike
+      <section class="cart_products">
+        <!-- first cart Product added -->
+        <div class="card shopping_card card_shadow horizontal">
+          <div class="img-container">
+            <img
+              src="https://stayglam.com/wp-content/uploads/2014/07/Top-14-Girly-Alcoholic-Drinks-2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="lower-card">
+            <header>
+              <h3>Sahi Vodka</h3>
+              <p class="header-description">By Bartendar Shashi</p>
+            </header>
+            <p class="card-description">
+              <span class="product_price">₹600 </span><strike>₹1000</strike
               ><span class="card_discount">40% off</span
               ><span class="product_rating">4⭐</span>
             </p>
@@ -59,15 +75,14 @@
               <a href="#" class="btn btn-float">
                 <span><i class="bi bi-plus"></i></span>
               </a>
-              <h1>1</h1>
-              <a href="#" class="btn btn-float">
+            <h1>1</h1>
+            <a href="#" class="btn btn-float">
                 <span><i class="bi bi-dash"></i></span>
-              </a>
+            </a>
             </div>
             <div class="btn-container">
-              <a href="#" class="btn btn-primary btn-solid">Remove From Cart</a>
-              <a href="#" class="btn btn-primary btn-outline"
-                >Add to WishList</a
+                <a href="#" class="btn btn-primary btn-solid">Remove From Cart</a>
+                <a href="#" class="btn btn-primary btn-outline">Add to WishList</a
               >
             </div>
           </div>
@@ -94,15 +109,14 @@
               <a href="#" class="btn btn-float">
                 <span><i class="bi bi-plus"></i></span>
               </a>
-              <h1>1</h1>
-              <a href="#" class="btn btn-float">
-                <span><i class="bi bi-dash"></i></span>
-              </a>
+                <h1>1</h1>
+                <a href="#" class="btn btn-float">
+                    <span><i class="bi bi-dash"></i></span>
+                </a>
             </div>
             <div class="btn-container">
-              <a href="#" class="btn btn-primary btn-solid">Remove From Cart</a>
-              <a href="#" class="btn btn-primary btn-outline"
-                >Add to WishList</a
+                <a href="#" class="btn btn-primary btn-solid">Remove From Cart</a>
+                <a href="#" class="btn btn-primary btn-outline">Add to WishList</a
               >
             </div>
           </div>
@@ -129,15 +143,14 @@
               <a href="#" class="btn btn-float">
                 <span><i class="bi bi-plus"></i></span>
               </a>
-              <h1>1</h1>
-              <a href="#" class="btn btn-float">
-                <span><i class="bi bi-dash"></i></span>
-              </a>
+                <h1>1</h1>
+                <a href="#" class="btn btn-float">
+                    <span><i class="bi bi-dash"></i></span>
+                </a>
             </div>
             <div class="btn-container">
-              <a href="#" class="btn btn-primary btn-solid">Remove From Cart</a>
-              <a href="#" class="btn btn-primary btn-outline"
-                >Add to WishList</a
+                <a href="#" class="btn btn-primary btn-solid">Remove From Cart</a>
+                <a href="#" class="btn btn-primary btn-outline">Add to WishList</a
               >
             </div>
           </div>
@@ -164,15 +177,14 @@
               <a href="#" class="btn btn-float">
                 <span><i class="bi bi-plus"></i></span>
               </a>
-              <h1>1</h1>
-              <a href="#" class="btn btn-float">
-                <span><i class="bi bi-dash"></i></span>
-              </a>
+                <h1>1</h1>
+                <a href="#" class="btn btn-float">
+                    <span><i class="bi bi-dash"></i></span>
+                </a>
             </div>
             <div class="btn-container">
-              <a href="#" class="btn btn-primary btn-solid">Remove From Cart</a>
-              <a href="#" class="btn btn-primary btn-outline"
-                >Add to WishList</a
+                <a href="#" class="btn btn-primary btn-solid">Remove From Cart</a>
+                <a href="#" class="btn btn-primary btn-outline">Add to WishList</a
               >
             </div>
           </div>
@@ -202,32 +214,25 @@
           </div>
           <div class="seperate_sections"></div>
           <a href="#" class="btn btn-primary btn-solid">Checkout</a>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footer-drinks-break-main">
-        <h2>&copy shashi Made with Love ❤️</h2>
-        <div class="footer-drinksbreak-link-container">
-          <a
-            class="link"
-            target="_blank "
-            href="https://github.com/shashikantmaurya0007 "
-            ><i class="bi bi-github"></i></a
+            </div>
+        </section>
+        </main>
+        <footer>
+            <div class="footer-drinks-break-main">
+                <h2>&copy shashi Made with Love ❤️</h2>
+                <div class="footer-drinksbreak-link-container">
+                    <a class="link" target="_blank " href="https://github.com/shashikantmaurya0007 "><i class="bi bi-github"></i></a
           ><a
             class="link"
             target="_blank "
             href="https://www.linkedin.com/in/shashikant-maurya-2aa39668/ "
             ><i class="bi bi-linkedin"></i
           ></a>
-          <a
-            class="link"
-            target="_blank "
-            href="https://instagram.com/shashimourya1?utm_medium=copy_link "
-            ><i class="bi bi-instagram"></i
+                    <a class="link" target="_blank " href="https://instagram.com/shashimourya1?utm_medium=copy_link "><i class="bi bi-instagram"></i
           ></a>
-        </div>
-      </div>
-    </footer>
-  </body>
+                </div>
+            </div>
+        </footer>
+</body>
+
 </html>
