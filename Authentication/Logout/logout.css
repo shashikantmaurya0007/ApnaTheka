@@ -1,0 +1,16 @@
+@import url(../../navbar.css);
+@import url(https://vodka-ui-componentlib.netlify.app/Component/component.css);
+@import url(../../reset.css);
+@import url(../../util.css);
+@import url(../../footer.css);
+.logout-container {
+    min-height: 70vh;
+}
+
+.logout {
+    width: 42rem;
+    height: 30rem;
+    font-size: 3rem;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
